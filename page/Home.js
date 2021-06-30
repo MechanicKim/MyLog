@@ -100,7 +100,9 @@ class Home extends React.Component {
               }
               selected={data.item.key === index}
               activeOpacity={1}>
-              <Date>{`${data.item.time}`}</Date>
+              <Date>{`${moment(data.item.id).format('YYYY년 M월 D일')} ${
+                data.item.time
+              }`}</Date>
               <Text>{data.item.content}</Text>
             </Content>
           )}

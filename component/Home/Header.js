@@ -21,7 +21,7 @@ export default function Header({history, date}) {
         history.push(`/calendar/${date.format('YYYY-MM-DD')}`);
       }}
       activeOpacity={0.7}>
-      <Text>{date.format('YYYY년 M월 D일')}</Text>
+      <Text>{date.format('YYYY년 M월 D일 (ddd)')}</Text>
     </View>
   );
 }
