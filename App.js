@@ -10,15 +10,14 @@ import React, {Component} from 'react';
 import {NativeRouter, Route} from 'react-router-native';
 
 import Home from './page/Home';
-import Calendar from './page/Calendar';
+import MyLog from './page/MyLog';
 
 class App extends Component {
   render() {
     return (
       <NativeRouter>
         <Route exact path="/" component={Home} />
-        <Route exact path="/log/:current" component={Home} />
-        <Route exact path="/calendar/:date" component={Calendar} />
+        <Route exact path="/log" component={MyLog} />
       </NativeRouter>
     );
   }

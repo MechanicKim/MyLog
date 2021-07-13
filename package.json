@@ -14,7 +14,6 @@
     "moment": "^2.29.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
-    "react-native-calendars": "^1.1260.0",
     "react-native-swipe-list-view": "^3.2.7",
     "react-router-native": "^5.2.0",
     "styled-components": "^5.2.3"
